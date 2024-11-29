@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9fafb;
+    transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+}
+
+
+div#listaLivros {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.livro-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.livro-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.livro-author {
+    font-size: 14px;
+    color: #888;
+    margin-top: 4px;
+}
+
+.livro-description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.5;
+} 
+.styled-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 3px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden; /* Garante que a borda arredondada funcione corretamente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+.styled-table thead {
+    background-color: #343a40; /* Cor escura para cabeçalhos */
+    color: #fff; /* Texto branco */
+}
+
+.styled-table th {
+    text-align: left;
+    font-size: 16px;
+    
+}
+.styled-table tbody {
+    color: #fff;
+    
+}
+
+td {
+    background-color: #808080;
+}
+
+.styled-table td, .styled-table th {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Usando seletores mais específicos para garantir que o estilo seja aplicado */
+input.form-control:focus, 
+textarea.form-control:focus, 
+select.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.botoes {
+    display: flex;
+}
